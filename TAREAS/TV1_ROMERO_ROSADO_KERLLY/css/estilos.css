@@ -1,0 +1,96 @@
+/* Fondo general del body con imagen desde URL */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/vector-gratis/tema-fondo-abstracto-colorido_23-2148490815.jpg?semt=ais_hybrid&w=740') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor del formulario tipo glassmorphism */
+  .contenedor {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-width: 400px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    color: #111010;
+  }
+  
+  /* Título */
+  h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #100f0f;
+  }
+  
+  /* Texto de descripción */
+  p {
+    font-size: 14px;
+    color: #171616;
+    margin-bottom: 20px;
+  }
+  
+  /* Etiquetas */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #cf38cf;
+  }
+  
+  /* Inputs y textarea */
+  input[type="text"],
+  input[type="password"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  select {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  /* Grupos de radio y checkbox */
+  .radio-group, .checkbox-group {
+    margin-top: 10px;
+  }
+  
+  /* Botones */
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #0d6efd;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #084298;
+  }
+  
